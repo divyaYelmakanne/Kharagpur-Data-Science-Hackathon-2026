@@ -1,0 +1,4 @@
+story_id,prediction,rationale
+1,1,Earlier life events support later decisions
+2,0,Backstory contradicts character’s later beliefs
+3,1,No causal conflict found across narrative
