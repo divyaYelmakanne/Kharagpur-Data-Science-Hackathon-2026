@@ -1,4 +1,4 @@
-# Kharagpur Data Science Hackathon 2026 (KDSH 2026)
+# IIT Kharagpur Data Science Hackathon 2026 (KDSH 2026)
 
 ## Team Name
 Sanjivani Squad
@@ -43,6 +43,7 @@ The task is framed as a binary classification problem:
 
 ## 📁 Project Structure
 
+```
 Sanjivani_Squad_KDSH_2026/
 │
 ├── code/
@@ -59,6 +60,7 @@ Sanjivani_Squad_KDSH_2026/
 ├── results.csv              # Final predictions output
 │
 └── README.md                # Project overview & run instructions
+```
 
 
 ---
@@ -94,4 +96,5 @@ The results.csv file contains:
 
 Sanjivani Squad  
 Kharagpur Data Science Hackathon 2026
+
 
