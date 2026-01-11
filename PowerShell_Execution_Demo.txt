@@ -1,0 +1,63 @@
+PowerShell 7.5.4
+PS C:\Users\DELL> cd Desktop
+PS C:\Users\DELL\Desktop> dir
+
+    Directory: C:\Users\DELL\Desktop
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d----           1/11/2026 11:11 AM                Sanjivan
+                                                  i_Squard
+                                                  _KDSH_20
+                                                  26
+d----           1/10/2026 12:15 PM                Unique
+-a---           1/11/2026 10:45 AM        1448513 695bac0f
+                                                  217f3_Pr
+                                                  oblem_St
+                                                  atement_
+                                                  -_Kharag
+                                                  pur_Data
+                                                  _Science
+                                                  _Hackath
+                                                  on_2026.
+                                                  pdf
+
+PS C:\Users\DELL\Desktop> cd Sanjivani_Squard_KDSH_2026
+PS C:\Users\DELL\Desktop\Sanjivani_Squard_KDSH_2026> dir
+
+    Directory:
+C:\Users\DELL\Desktop\Sanjivani_Squard_KDSH_2026
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d----           1/11/2026 11:09 AM                code
+d----           1/11/2026 11:11 AM                data
+d----           1/11/2026 10:58 AM                report
+-a---           1/11/2026 10:56 AM            675 README.m
+                                                  d
+-a---           1/11/2026 11:23 AM            147 results.
+                                                  csv
+
+PS C:\Users\DELL\Desktop\Sanjivani_Squard_KDSH_2026> notepad code\data_loader.py
+PS C:\Users\DELL\Desktop\Sanjivani_Squard_KDSH_2026> python code\main.py
+This is not the real Pathway package.
+Visit https://pathway.com/developers/ to get Pathway.
+Already tried that? Visit https://pathway.com/troubleshooting/ to get help.
+Note: your platform is Windows-11-10.0.26100-SP0, your Python is CPython 3.13.7.
+PS C:\Users\DELL\Desktop\Sanjivani_Squard_KDSH_2026> dir
+
+    Directory:
+C:\Users\DELL\Desktop\Sanjivani_Squard_KDSH_2026
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d----           1/11/2026 11:09 AM                code
+d----           1/11/2026 11:11 AM                data
+d----           1/11/2026 10:58 AM                report
+-a---           1/11/2026 10:56 AM            675 README.m
+                                                  d
+-a---           1/11/2026 11:26 AM            147 results.
+                                                  csv
+
+PS C:\Users\DELL\Desktop\Sanjivani_Squard_KDSH_2026> notepad results.csv
+PS C:\Users\DELL\Desktop\Sanjivani_Squard_KDSH_2026>
