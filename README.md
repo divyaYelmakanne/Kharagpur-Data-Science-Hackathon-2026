@@ -1,36 +1,97 @@
-# Kharagpur Data Science Hackathon 2026
+# Kharagpur Data Science Hackathon 2026 (KDSH 2026)
 
-Team Name: SanjivaniSquard
+## Team Name
+Sanjivani Squad
 
-Team Member: Divya Yelmakanne
-  
-Track: Track A – Systems Reasoning with NLP  
+## Track
+Track A – Systems Reasoning with NLP and Generative AI
 
-## How to Run
-1. Install dependencies
-   pip install -r code/requirements.txt
+---
 
-2. Run pipeline
-   python code/main.py
+## 📌 Problem Overview
 
-3. Output
-   results.csv
+Large Language Models often struggle with global consistency and causal reasoning
+when dealing with long-form narratives (100k+ words).
+This challenge focuses on determining whether a hypothetical character backstory
+is logically and causally consistent with the complete narrative of a novel.
 
-Folder Structure:
+The task is framed as a binary classification problem:
+- 1 → Backstory is consistent
+- 0 → Backstory contradicts the narrative
 
-Sanjivani_Squard_KDSH_2026/
+---
+
+## 🧠 Our Approach
+
+- Treat the task as a constraint-based reasoning problem
+- Break long narratives into manageable chunks
+- Use Pathway for long-context ingestion and retrieval
+- Retrieve evidence relevant to backstory claims
+- Perform causal and consistency checks across narrative timelines
+- Output a final binary decision with a short rationale
+
+---
+
+## 🛠️ Tech Stack
+
+- Python
+- Pathway Framework
+- NLP-based retrieval & reasoning
+- Pandas / NumPy
+
+---
+
+## 📁 Project Structure
+
+Sanjivani_Squad_KDSH_2026/
 │
 ├── code/
-│   ├── main.py
-│   ├── data_loader.py
-│   ├── retriever.py
-│   ├── reasoning.py
-│   ├── config.py
-│   └── requirements.txt
+│   ├── main.py              # Entry point – runs full pipeline
+│   ├── data_loader.py       # Loads narrative & backstory
+│   ├── retriever.py         # Pathway-based long-context retrieval
+│   ├── reasoning.py         # Consistency & causal reasoning logic
+│   ├── config.py            # Global configuration
+│   └── requirements.txt     # Python dependencies
 │
 ├── report/
-│   └── KDSH_Report.pdf
+│   └── KDSH_Report.pdf      # Final 10-page report
 │
-├── results.csv
+├── results.csv              # Final predictions output
 │
-└── README.md
+└── README.md                # Project overview & run instructions
+
+
+---
+
+## ▶️ How to Run the Project
+
+### 1️⃣ Install Dependencies
+pip install -r code/requirements.txt
+
+### 2️⃣ Run the Pipeline
+python code/main.py
+
+---
+
+## 📊 Output
+
+The results.csv file contains:
+- story_id
+- prediction (1 or 0)
+- rationale
+
+---
+
+## ⚠️ Limitations
+
+- Heuristic-based contradiction detection
+- Limited deep causal modeling
+- Scope for stronger LLM-based reasoning
+
+---
+
+## 👥 Team
+
+Sanjivani Squad  
+Kharagpur Data Science Hackathon 2026
+
